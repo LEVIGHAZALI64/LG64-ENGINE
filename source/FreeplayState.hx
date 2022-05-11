@@ -168,9 +168,9 @@ class FreeplayState extends MusicBeatState
 			#end
 		#else
                         #if PRELOAD_ALL
-			var leText:String = "Press X to listen to this Song / Press Y to Reset your Score and Accuracy.";
+			var leText:String = "Press SPACE or X to listen to this Song / Press RESET or Y to Reset your Score and Accuracy.";
 			#else
-			var leText:String = "Press Y to Reset your Score and Accuracy.";
+			var leText:String = "Press SPACE or Y to Reset your Score and Accuracy.";
 			#end			
 		#end
 		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, 18);
