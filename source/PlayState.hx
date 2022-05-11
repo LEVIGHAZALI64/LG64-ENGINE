@@ -989,11 +989,11 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
-		if (ClientPrefs.scoreType == 'Psych Engine') {
+		if (ClientPrefs.scoreType == 'LEVI Engine') {
                 scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
                 scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
                 }
-                else if (ClientPrefs.scoreType == 'Kade Engine') {
+                else if (ClientPrefs.scoreType == 'Haliza Engine') {
                 scoreTxt = new FlxText(FlxG.width / 2 - 235, healthBarBG.y + 50, 0, "", 20);
                 scoreTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
                 }
