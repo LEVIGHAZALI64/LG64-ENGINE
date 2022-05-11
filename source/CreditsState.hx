@@ -46,11 +46,11 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
+			['LEVI ENGINE Android Port'],
 			['LG64',		    'levi',		    'Youtuber And Main Coder of The Port',	 'https://youtube.com/c/LG64TUBE',	'0xFFC30085'],
-			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
+			['LEVI Engine Team'],
+			['LG64',		'levi',		'Main Programmer of Levi Engine',					'https://youtube.com/c/LG64TUBE',	'0xFFFFDD33'],
+			['Haliza',			'haliza',		'Main Artist/Animator of Levi Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
 			[''],
 			['Engine Contributors'],
 			['shubs',				'shubs',			'New Input System Programmer',						'https://twitter.com/yoshubs',			'0xFF4494E6'],
