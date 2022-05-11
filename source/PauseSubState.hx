@@ -173,7 +173,7 @@ class PauseSubState extends MusicBeatSubstate
 					regenMenu();
 				case "Chart Editor":
 				    MusicBeatState.switchState(new editors.ChartingState());
-				case 'Toggle Practice Mode':
+				case 'God Mode':
 					PlayState.practiceMode = !PlayState.practiceMode;
 					PlayState.usedPractice = true;
 					practiceText.visible = PlayState.practiceMode;
